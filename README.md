@@ -1,3 +1,13 @@
+1. When you download this project: In the project directory
+run CMD command: composer update (composer must be installed globally on your windows machine before command "composer update" would work).
+
+Get Composer: https://getcomposer.org/
+
+2. File .env.example rename to ".env" for Database configuration.
+
+3. Database file is in '_database_file' folder.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
