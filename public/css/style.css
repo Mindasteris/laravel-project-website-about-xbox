@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@font-face {
+    font-family: xbox;
+    src: url('/fonts/X360.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: xbox, sans-serif;
+}
+
+.main-text p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Xbox Banner */
+.banner {
+    background: url('/img/xbox_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+    overflow: hidden;
+    height: 250px;
+}
+
+nav {
+    background-color: #3A3A3A;
+    font-size: 18px;
+}
+
+nav li a {
+    color: white !important;
+}
+
+nav li a:hover {
+    color: #107C10 !important;
+}
+
+/* Footer */
+footer {
+    background-color: #3A3A3A;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+.footer-content {
+    padding: 10px;
+}
+
+.footer-list {
+    width: 33%;
+    margin: auto 0;
+    text-align: center;
+}
+
+.footer-p {
+    width: 33%;
+    margin: auto 0;
+}
+
+/* Social Icons */
+.social-icons {
+    width: 33%;
+}
+
+.bi-facebook {
+    color: 	#4267B2;
+}
+
+.bi-twitter {
+    color: #1DA1F2;
+}
+
+.bi-twitch {
+    color: #6441a5;
+}
+
+.bi-youtube {
+    color: 	#FF0000;
+}
+
+.bi-linkedin {
+    color: #0e76a8;
+}
+
+.social-icons i {
+    margin-left: 70px;
+}
+
+/* Login and Register main style */
+.card-head {
+    background-color: #107C10 !important;
+    color: white !important;
+}
+
+.btn-green {
+    background-color: #107C10 !important;
+    color: white !important;
+}
+
+.btn-link {
+    color: #107C10 !important;
+}
+
+/* Products Page */
+.xbox-product-image {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.all-cards .card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 8%;
+}
+
+.all-cards-body {
+    border: 5px solid;
+    border-radius: 20px;
+}
+
+.card-title {
+    color: white;
+    background-color: #107C10;
+    text-align: center;
+}
+
+/* .all-cards-body {
+    background-color: lightgray; 
+} */
+
+/* Community Page */
+/* .comment-header {
+    color: #107C10;
+} */
+
+.comment {
+   width: 33%;
+   margin-left: 5px;
+   padding: 10px;
+}
+
+/* Community icons */
+/* Tranform Scale on links */
+.bi {
+    display: inline-block;
+    font-size: 25px;
+    padding-left: 20px;
+    transition: transform .2s;
+}
+
+.bi:hover {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+/* Media */
+@media screen and (max-width: 786px) {
+    .all-cards .card {
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .comment {
+        width: 100%;
+    }
+    .btn-contact {
+        margin-left: 15px;
+    }
+    .btn-community {
+        margin-left: 15px;
+    }
+    table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .footer-list {
+        padding: 10px 0;
+        width: 100%;
+    }
+    .footer-p {
+        padding: 10px 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .social-icons {
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .social-icons i {
+        margin: 0;
+    }
+    .nav-logo img {
+        width: 120px;
+    }
+}
